@@ -1,0 +1,32 @@
+body {
+    background-image: url('img/fon.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+.nav-item.nav-link:hover {
+    background-color: rgba(255, 104, 129, 0.8);
+    color: white !important;
+}
+
+.nav-item.nav-link.active {
+    background-color: rgba(255, 0, 102, 0.9);
+    color: white !important;
+}
+
+.footer {
+    background-color: #181b23;
+    color: #fff;
+    padding: 0.5rem 0; 
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 820;
+    font-size: 0.8rem; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
